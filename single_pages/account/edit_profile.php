@@ -199,7 +199,7 @@ $profileFormRenderer->setContext(new FrontendFormContext());
                         </div>
 
                         <div class="float-end">
-                            <button type='button' data-toggle="modal" data-target="#passwordchange" class="btn btn-secondary" id="ccm-change-password">
+                            <button type='button' data-bs-toggle="modal" data-bs-target="#passwordchange" class="btn btn-secondary" id="ccm-change-password">
                                 <?php echo t("Change Password"); ?>
                             </button>
 
